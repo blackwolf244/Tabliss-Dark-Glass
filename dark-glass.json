@@ -1,0 +1,88 @@
+{
+  "background": {
+    "display": { "blur": 0, "luminosity": -0.6 },
+    "id": "default-unsplash",
+    "key": "background/unsplash"
+  },
+  "data/132xFM4EATjD": {
+    "columns": 4,
+    "linkOpenStyle": false,
+    "links": [
+      { "name": "GPT", "url": "https://chat.openai.com/chat" },
+      { "name": "YT", "url": "https://www.youtube.com/" },
+      { "name": "G", "url": "https://www.google.de/" },
+      { "name": "GM", "url": "https://mail.google.com/" }
+    ],
+    "visible": true
+  },
+  "data/9j_PDR8O67zF": {
+    "input": ":root {\n  --bkg: black;\n  --fg: white;\n}\n\n.Links {\n  backdrop-filter: blur(2px) brightness(90%);\n}\n\n.Links a,\n.Links {\n  transition: all 200ms ease-in;\n  border-radius: 12px;\n  padding: 6px;\n}\n\n.Links a {\n  font-size: 1.2rem;\n  border-radius: 12px;\n  text-transform: uppercase;\n}\n.Links a i svg {\n  position: relative;\n  right: 2px;\n}\n\n.Time h1 {\n  margin-bottom: 10px;\n}\n\n.Widgets div .Search input {\n  border-bottom: 5px;\n  border-radius: 5px;\n  color: var(--fg);\n}\n\n.Widgets .container .Slot > * {\n  margin: 0px;\n  margin-right: 1rem;\n}\n\n.Overlay {\n  backdrop-filter: blur(2px) brightness(90%);\n}\n\n.Overlay .on-hover {\n  display: none;\n}\n\n.Overlay:hover .on-hover {\n  display: block;\n}\n\n.plane .Widget {\n  padding: 0;\n}\n\n.Settings .plane {\n  background-color: var(--bkg);\n  color: var(--fg);\n  padding: 0.5rem;\n  padding-left: 0.5rem;\n  width: 33vw;\n  min-width: 330px;\n  transition: all 300ms ease;\n}\n.Settings .plane .Widget {\n  background-color: var(--bkg);\n}\n\n.Settings .plane .Widget .settings textarea {\n  background-color: var(--bkg);\ndisplay: flex;\n  width: 100%;\nheight: 500px;\n  overflow: auto;\n  border: none;\n  padding: 0;\n}\n\n.Settings div select,\n.Settings div .primary {\n  background-color: var(--bkg);\n  border: none;\n}\n.Settings div h2,\n.Settings .plane div h4 {\n  color: var(--fg);\n}\n.Settings input {\n  background-color: var(--bkg);\n}\n.Settings .plane div h4 {\n  padding-left: 1rem;\n}\n\n@media (max-width: 500px) {\n  .Links {\n    display: flex;\n    flex-flow: row wrap;\n    width: 200px;\n  }\n  .Links a {\n    font-size: 1.2rem;\n  }\n}\n"
+  },
+  "data/YLY5XgnUq1S7": { "items": [], "keyBind": "T", "show": 3 },
+  "data/default-unsplash": {
+    "by": "search",
+    "collections": "",
+    "featured": false,
+    "paused": false,
+    "search": "Jaguar Tiger",
+    "timeout": 900,
+    "topics": "bo8jQKTaE0Y"
+  },
+  "data/dflUjIkg2SbO": {
+    "latitude": 0,
+    "longitude": 0,
+    "showDetails": false,
+    "units": "si"
+  },
+  "data/s1wUlIlEta1u": {
+    "hour12": false,
+    "mode": "digital",
+    "showDate": false,
+    "showDayPeriod": true,
+    "showMinutes": true,
+    "showSeconds": false,
+    "timeZone": null
+  },
+  "focus": false,
+  "locale": "en",
+  "timeZone": null,
+  "widget/132xFM4EATjD": {
+    "display": { "position": "middleRight" },
+    "id": "132xFM4EATjD",
+    "key": "widget/links",
+    "order": 2
+  },
+  "widget/38J55wm3vh3A": null,
+  "widget/9j_PDR8O67zF": {
+    "display": { "position": "middleRight" },
+    "id": "9j_PDR8O67zF",
+    "key": "widget/css",
+    "order": 3
+  },
+  "widget/9m-lmzMchlzu": null,
+  "widget/EmiuOZ6sXCl8": null,
+  "widget/IuW3rEvXFUfO": null,
+  "widget/YLY5XgnUq1S7": {
+    "display": { "position": "bottomRight" },
+    "id": "YLY5XgnUq1S7",
+    "key": "widget/todo",
+    "order": 9
+  },
+  "widget/default-greeting": null,
+  "widget/default-time": null,
+  "widget/dflUjIkg2SbO": {
+    "display": { "fontSize": 26, "position": "middleRight" },
+    "id": "dflUjIkg2SbO",
+    "key": "widget/weather",
+    "order": 0
+  },
+  "widget/s1wUlIlEta1u": {
+    "display": { "fontSize": 28, "position": "middleRight" },
+    "id": "s1wUlIlEta1u",
+    "key": "widget/time",
+    "order": 1
+  },
+  "widget/t1FwDVDaCJcx": null,
+  "widget/waNOD1AbQyV4": null,
+  "version": 3
+}
