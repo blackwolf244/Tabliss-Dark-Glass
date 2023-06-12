@@ -15,12 +15,12 @@ This repository contains a custom theme for Tabliss, allowing you to personalize
 ## Installation
 
 1. Ensure you have Tabliss installed in your web browser.
-2. Download the [Tabliss Theme JSON file](theme.json).
+2. Download the [Tabliss Theme JSON file](dark-glass.json).
 3. Import the JSON file into your Tabliss settings to apply the theme.
 
 Alternatively, if you prefer to use the CSS file directly:
 
-1. Download the [Tabliss Theme CSS file](theme.css).
+1. Download the [Tabliss Theme CSS file](dark-glass.css).
 2. Navigate to the Tabliss-Settings and locate the "Custom CSS" widget. Paste the contents of the main.css file into the designated text box within the configuration panel.
 
 ## Customization
