@@ -1,0 +1,105 @@
+:root {
+  --bkg: black;
+  --fg: white;
+}
+
+.Links {
+  backdrop-filter: blur(2px) brightness(90%);
+}
+
+.Links a,
+.Links {
+  transition: all 200ms ease-in;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.Links a {
+  font-size: 1.2rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+.Links a i svg {
+  position: relative;
+  right: 2px;
+}
+
+.Time h1 {
+  margin-bottom: 10px;
+}
+
+.Widgets div .Search input {
+  border-bottom: 5px;
+  border-radius: 5px;
+  color: var(--fg);
+}
+
+.Widgets .container .Slot > * {
+  margin: 0px;
+  margin-right: 1rem;
+}
+
+.Overlay {
+  backdrop-filter: blur(2px) brightness(90%);
+}
+
+.Overlay .on-hover {
+  display: none;
+}
+
+.Overlay:hover .on-hover {
+  display: block;
+}
+
+.plane .Widget {
+  padding: 0;
+}
+
+.Settings .plane {
+  background-color: var(--bkg);
+  color: var(--fg);
+  padding: 0.5rem;
+  padding-left: 0.5rem;
+  width: 33vw;
+  min-width: 330px;
+  transition: all 300ms ease;
+}
+.Settings .plane .Widget {
+  background-color: var(--bkg);
+}
+
+.Settings .plane .Widget .settings textarea {
+  background-color: var(--bkg);
+  width: 100%;
+  height: 500px;
+  overflow: auto;
+  border: none;
+  padding: 0;
+}
+
+.Settings div select,
+.Settings div .primary {
+  background-color: var(--bkg);
+  border: none;
+}
+.Settings div h2,
+.Settings .plane div h4 {
+  color: var(--fg);
+}
+.Settings input {
+  background-color: var(--bkg);
+}
+.Settings .plane div h4 {
+  padding-left: 1rem;
+}
+
+@media (max-width: 500px) {
+  .Links {
+    display: flex;
+    flex-flow: row wrap;
+    width: 200px;
+  }
+  .Links a {
+    font-size: 1.2rem;
+  }
+}
