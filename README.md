@@ -14,7 +14,7 @@ This repository contains a custom theme for Tabliss, allowing you to personalize
 
 ## Installation
 
-1. Ensure you have Tabliss installed in your web browser.
+1. Ensure you have [Tabliss](https://tabliss.io/) installed in your web browser.
 2. Download the [Tabliss Theme JSON file](dark-glass.json).
 3. Import the JSON file into your Tabliss settings to apply the theme.
 
