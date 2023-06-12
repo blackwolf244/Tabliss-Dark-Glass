@@ -6,7 +6,7 @@ A minimal theme for Tabliss, a customizable start page extension for web browser
 
 ---
 
-This repository contains a custom theme for Tabliss, allowing you to personalize your browser's start page with a more minimal and unobstrusive design. The theme includes a JSON file for import and a CSS file that can be added separately for more flexibility.
+This repository contains a custom theme for Tabliss, allowing you to personalize your browser's start page with a more minimal and unobtrusive design. The theme includes a JSON file for import and a CSS file that can be added separately for more flexibility.
 
 ## Preview
 
@@ -21,7 +21,7 @@ This repository contains a custom theme for Tabliss, allowing you to personalize
 Alternatively, if you prefer to use the CSS file directly:
 
 1. Download the [Tabliss Theme CSS file](dark-glass.css).
-2. Navigate to the Tabliss-Settings and locate the "Custom CSS" widget. Paste the contents of the main.css file into the designated text box within the configuration panel.
+2. Navigate to the Tabliss-Settings and locate the "Custom CSS" widget. Paste the contents of the dark-glass.css file into the designated text box within the configuration panel.
 
 ## Customization
 
